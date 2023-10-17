@@ -2,7 +2,7 @@
 
 This repo contains the following:
 
-* constructStoppingTarget.cc
+* constructStoppingTarget.cc and .hh
 * a set of txt based geometry configurations for various target geometries
 * an example geom_current to show how to put the code into practice
 * this documentation
