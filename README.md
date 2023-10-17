@@ -23,6 +23,10 @@ The .cc file contains code to build the stopping target geometry in Geant4, with
 * cylinder - mesh based target. The geometric shape of the target is concentric cylinders.
 * hexagon - mesh based target. The geometric shape of the target is a set of cylinders making a hexagonal cross-section
 
-## The Text Configs
+## The geom common current
 
-Mu2e/Offline requires geometries to be defined in .txt config files. These list the relevent parameters for that specific geomety.
+Mu2e/Offline requires geometries to be defined in .txt config files. These lists the relevent parameters for that specific geometry. The geom_common_current.txt usually contains the parameters actually imported into the simulation. There's a number of included .txt files. At the time of this study the current stopping target geometry was taken from geom_common_hayman_v2.txt.
+
+If you look in the file you will see how to add the target of choice based on including the relevent text files.
+
+## The chosen target .txt
