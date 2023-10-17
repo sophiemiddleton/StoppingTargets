@@ -46,4 +46,4 @@ The globalConstats.txt should be placed in Mu2eG4/test and contain parameters re
 
 If you are not changing the stopping target material you are good to run using the standard production workflow.
 
-If you have changed the material you will need to do the following look at the CeEndpointV.fcl and DIOTailV.fcl examples. To run the latter move the supplied table to the ConditionsService/data directory.
+If you have changed the material you will need to look at the CeEndpointV.fcl and DIOTailV.fcl examples. To run the latter move the supplied table to the ConditionsService/data directory.
