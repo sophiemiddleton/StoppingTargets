@@ -7,7 +7,7 @@
 physics.producers.generate : {
   module_type : CeEndpoint
   inputSimParticles: TargetStopResampler
-  stoppingTargetMaterial : "Ti"
+  stoppingTargetMaterial : "V"
   pdgId : 11
   verbosity : 0
 }
