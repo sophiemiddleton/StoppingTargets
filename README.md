@@ -28,7 +28,7 @@ The .cc file contains code to build the stopping target geometry in Geant4, with
 
 ## The geom common current
 
-Mu2e/Offline requires geometries to be defined in .txt config files. These list the relevant parameters for that specific geometry. The geom_common_current.txt usually contains the parameters actually imported into the simulation. There's a number of included .txt files. At the time of this study, the current stopping target geometry was taken from geom_common_hayman_v2.txt.
+Mu2e/Offline requires geometries to be defined in .txt config files. These list the relevant parameters for that specific geometry. The geom_common_current.txt usually contains the parameters actually imported into the simulation. There are a number of included .txt files. At the time of this study, the current stopping target geometry was taken from geom_common_hayman_v2.txt.
 
 If you look in the file you will see how to add the target of choice based on including the relevant text files.
 
@@ -38,9 +38,9 @@ I have added several chosen geometry .txt files. These should be fairly self-exp
 
 ## Changing Stopping Target Material
 
-The parameter physicsParams.chosenStoppingTargetMaterial dictates the stopping target material. I have included an example of how to construct a Ti target.
+The parameter physicsParams.chosenStoppingTargetMaterial dictates the stopping target material. I have included an example of how to construct a V amd Ti target.
 
-The globalConstats.txt should be placed in Mu2eG4/test and contains parameters relevant to the stopping target materials. If you want to add something not listed here, you will need to look up these quantities and add them to this file.
+The globalConstats.txt should be placed in Mu2eG4/test and contain parameters relevant to the stopping target materials. If you want to add something not listed here, you will need to look up these quantities and add them to this file.
 
 ## Running a simulation
 
