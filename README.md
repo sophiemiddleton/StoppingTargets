@@ -30,3 +30,7 @@ Mu2e/Offline requires geometries to be defined in .txt config files. These lists
 If you look in the file you will see how to add the target of choice based on including the relevent text files.
 
 ## The chosen target .txt
+
+I have added several chosen geometry .txt files. These should be fairly self-explanatary.
+
+## Changing Stopping Target Material
