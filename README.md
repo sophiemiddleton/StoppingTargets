@@ -42,10 +42,8 @@ The parameter physicsParams.chosenStoppingTargetMaterial dictates the stopping t
 
 The globalConstats.txt should be placed in Mu2eG4/test and contains parameters relevant to the stopping target materials. If you want to add something not listed here, you will need to look up these quantities and add them to this file.
 
-## Running a simualtion
+## Running a simulation
 
 If you are not changing the stopping target material you are good to run using the standard production workflow.
 
-If you have changed the material you will need to do the following:
-
-* Look at the CeEndpointTi.fcl example
+If you have changed the material you will need to do the following look at the CeEndpointV.fcl and DIOTailV.fcl examples. To run the latter move the supplied table to the ConditionsService/data directory.
