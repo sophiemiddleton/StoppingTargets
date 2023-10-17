@@ -6,6 +6,8 @@ This repo contains the following:
 * a set of txt based geometry configurations for various target geometries
 * an example of a stopping target made of Ti instead of Al
 * an example geom_current to show how to put the code into practice
+* globalConstants file - this is where material information is stored
+* An example CeEndpoint from Titanium
 * this documentation
 
 ## constructStoppingTarget
