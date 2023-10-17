@@ -7,7 +7,7 @@ This repo contains the following:
 * an example of a stopping target made of Ti instead of Al
 * an example geom_current to show how to put the code into practice
 * globalConstants file - this is where material information is stored
-* An example CeEndpoint from Titanium
+* An example CeEndpoint and DIO for Vanadium plus tabluated values 
 * this documentation
 
 ## constructStoppingTarget
