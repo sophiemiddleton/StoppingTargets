@@ -2,13 +2,13 @@
 
 This repo contains the following:
 
-* constructStoppingTarget.cc and .hh
-* a set of txt based geometry configurations for various target geometries
-* an example of a stopping target made of Ti instead of Al
-* an example geom_current to show how to put the code into practice
-* globalConstants file - this is where material information is stored
-* An example CeEndpoint and DIO for Vanadium plus tabluated values 
-* this documentation
+* constructStoppingTarget.cc and .hh c++ files which utilize G4 to build the chosen geometry;
+* a set of .txt based geometry configurations for various target geometries;
+* examples of stopping targets made of Ti, V and Li instead of Al;
+* an example geom_current to show how to put the code into practice;
+* globalConstants file - this is where material information is stored such as relative decay fraction and density;
+* An example CeEndpoint and DIO for Vanadium plus tabulated values ;
+* this documentation.
 
 ## constructStoppingTarget
 
